@@ -14,7 +14,7 @@ This experiment leverages AWS SageMaker training instances to set up a distribut
 - Navigate to the `/shared/scripts` directory where the scripts are located.
 
 ### Step 3: Run the Experiment
-- Open the `sagemaker_exp_notebook.ipynb` notebook from the `/shared/scripts` directory.
+- Open the `sagemaker_exp_notebook.ipynb` notebook.
 - Execute the cells sequentially to initialize the experiment setup and start the training process.
 
 ## Configuring the Experiment
