@@ -28,7 +28,7 @@ Within the `sagemaker_exp_notebook.ipynb`, you have the ability to control vario
 - Ensure that your AWS account has sufficient permissions and resource limits to create and run SageMaker notebook instances and perform distributed training.
 - Monitor the experiment’s progress directly through the notebook interface and AWS CloudWatch to understand resource utilization and training metrics.
 
-For any issues or further assistance, refer to the AWS SageMaker documentation or contact the support team.
+
 
 
 
