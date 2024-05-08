@@ -14,7 +14,7 @@ This experiment leverages the DeepSpeed library to establish a distributed train
 - Navigate to the `/src/train` directory where the scripts are located.
 
 ### Step 3: Configuration Files:
-- Review and modify the ds_zero3.yaml file to set up the DeepSpeed configuration. This file controls various parameters such as batch size, learning rate, and other optimizer settings.
+- Review and modify the ds_zero3.yaml file to set up the DeepSpeed configuration. 
 - The number of GPUs can be adjusted using the `num_process` field in the ds_zero.yaml file.
 
 ## Modifying Training Parameters
@@ -31,5 +31,6 @@ This experiment leverages the DeepSpeed library to establish a distributed train
 ## Additional Notes
 - Ensure that your AWS account has sufficient permissions and resource limits to create and run SageMaker notebook instances and perform distributed training.
 - Monitor the experiment’s progress directly through the notebook interface and AWS CloudWatch to understand resource utilization and training metrics.
+- If you have to add any further packages or update old ones, do a subprocess pip install in the accelerate.py file before the distributed environment is setup.
 
 For any issues or further assistance, refer to the AWS SageMaker documentation or contact the support team.
