@@ -15,7 +15,7 @@ This experiment leverages the DeepSpeed library to establish a distributed train
 
 ### Step 3: Configuration Files:
 - Review and modify the ds_zero3.yaml file to set up the DeepSpeed configuration. 
-- The number of GPUs can be adjusted using the `num_process` field in the ds_zero.yaml file.
+- The number of GPUs can be adjusted using the `num_process` field in the ds_zero.yaml file. In the notebook training search for `world_size` to verify
 
 ## Modifying Training Parameters
 
