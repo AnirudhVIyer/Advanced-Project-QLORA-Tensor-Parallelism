@@ -1,6 +1,6 @@
 # Experiment 2 : Experiment Setup Using DeepSpeed and LORA
 
-This experiment leverages the DeepSpeed library to establish a distributed training environment. We utilize the Accelerate library to facilitate the configuration and execution of the DeepSpeed setup as defined in the ds_zero3.yaml configuration file.
+This experiment leverages the DeepSpeed library to establish a distributed training environment. We utilize the Accelerate library to facilitate the configuration and execution of the DeepSpeed setup as defined in the ds_zero3.yaml configuration file. We train a T5 model on a DialogueSum dataset.
 
 ## Setup Instructions
 
@@ -21,14 +21,11 @@ This experiment leverages the DeepSpeed library to establish a distributed train
 
 - **Hyperparameters:** You can adjust the training hyperparameters directly within the notebook to tune the performance of your model.
 - **LORA Configuration:** To alter the Low Rank Adaptation (LORA) settings or to remove LORA configurations altogether, modify the src/train/train.py script according to your requirements.
+- **Selecting the model - Specify the T5 - Large or T5 - XL model to be used in the notebook.
 
 ### Step 3: Run the Experiment
 - Open the `sagemaker_exp2_notebook.ipynb` notebook.
 - Execute the cells sequentially to initialize the experiment setup and start the training process.
-
-## Configuring the Experiment
-
-Within the `sagemaker_exp2_notebook.ipynb`, you have the ability to control various aspects of the training process:
 
 
 ## Additional Notes
