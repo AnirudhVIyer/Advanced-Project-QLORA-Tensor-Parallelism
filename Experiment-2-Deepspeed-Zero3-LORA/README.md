@@ -33,4 +33,3 @@ This experiment leverages the DeepSpeed library to establish a distributed train
 - Monitor the experiment’s progress directly through the notebook interface and AWS CloudWatch to understand resource utilization and training metrics.
 - If you have to add any further packages or update old ones, do a subprocess pip install in the accelerate.py file before the distributed environment is setup.
 
-For any issues or further assistance, refer to the AWS SageMaker documentation or contact the support team.
